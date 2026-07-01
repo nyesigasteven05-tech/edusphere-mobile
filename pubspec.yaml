@@ -1,0 +1,25 @@
+name: edusphere_mobile
+description: "EduSphere Mobile — Flutter client for School Management SaaS. Multi-tenant platform with role-based dashboards for Super Admin, School Admin, Teachers, Students, and Parents."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.2
+  provider: ^6.0.0
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
